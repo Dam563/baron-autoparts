@@ -22,7 +22,7 @@ const Checkout = () => {
             </div>
             <div className="flex justify-between my-5 p-2">
          <Form/>
-         <img src={card} alt="" width={600} height={350}/>
+         <img src={card} alt="" width={600} height={350} className="hidden lg:block"/>
          </div>
             <div className="mt-[30px] ml-5 sm:ml-[30px]">
                 

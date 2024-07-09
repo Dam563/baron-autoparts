@@ -57,7 +57,9 @@ const Header = ( {page}) => {
     <div className='flex justify-between p-5'>
       <div></div>
       <p className="font-bold text-[16px]">{page}</p>
+      <Link to={'/cart'}>
       <img src={myCart} alt="" width={24} height={24}/>
+      </Link>
     </div>
     </header>
     );
